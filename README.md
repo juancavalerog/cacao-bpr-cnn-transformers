@@ -1,5 +1,7 @@
 # Redes convolucionales y Transformers para clasificar la pudrición negra del cacao (*Phytophthora* spp.)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23178066.svg)](https://doi.org/10.5281/zenodo.23178066)
+
 Código, particiones, predicciones y tablas del artículo:
 
 > Valero Gómez, J. C.; Clares Perca, J. C.; Zúñiga Incalla, A. P. *Redes Convolucionales y Transformers para Clasificar la Pudrición Negra del Cacao (Phytophthora spp.): Auditoría de Identidad de Imágenes y Sensibilidad al Contexto de Captura*. Nativa (en evaluación).
@@ -56,7 +58,11 @@ Las versiones exactas están en `requirements-docker.txt` y `resultados/requirem
 
 ## Cómo citar
 
-Ver `CITATION.cff`. Si usa este material, cite el artículo y el repositorio archivado en Zenodo (DOI en la página del repositorio).
+Si usa este material, cite el artículo y el repositorio archivado en Zenodo:
+
+> Valero Gómez, J. C.; Clares Perca, J. C.; Zúñiga Incalla, A. P. (2026). *Redes convolucionales y Transformers para clasificar la pudrición negra del cacao (Phytophthora spp.): código y datos derivados* (versión 1.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23178066
+
+Los metadatos de citación están en `CITATION.cff`; GitHub los muestra en el botón *Cite this repository*.
 
 ## Licencia
 
