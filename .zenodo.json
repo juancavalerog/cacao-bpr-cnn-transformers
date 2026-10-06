@@ -8,7 +8,7 @@
     {"name": "Zúñiga Incalla, Alex Peter", "affiliation": "Universidad Nacional de Moquegua", "orcid": "0000-0003-4734-2262"}
   ],
   "keywords": ["cacao", "black pod rot", "Phytophthora", "deep learning", "vision transformer", "group cross-validation"],
-  "license": "MIT",
+  "license": "mit",
   "language": "spa",
   "version": "1.0.0"
 }
