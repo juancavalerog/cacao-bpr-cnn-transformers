@@ -1,0 +1,74 @@
+{
+  "seed": 42,
+  "n_folds": 5,
+  "n_repeats": 3,
+  "inner_val_splits": 7,
+  "source_shift": true,
+  "img_size": 224,
+  "cache_size": 256,
+  "batch_size": 32,
+  "num_workers": 6,
+  "drop_rate": 0.5,
+  "weight_decay": 0.01,
+  "bn_frozen": true,
+  "phase1": {
+    "epochs": 20,
+    "lr": 0.001,
+    "patience": 5
+  },
+  "phase2": {
+    "epochs": 40,
+    "lr": 1e-05,
+    "patience": 8
+  },
+  "plateau": {
+    "factor": 0.5,
+    "patience": 3,
+    "min_lr": 1e-07
+  },
+  "aug": {
+    "rrc_scale_min": 0.8,
+    "rotation_deg": 20,
+    "color_jitter": 0.2
+  },
+  "dedup": {
+    "hamming": 6,
+    "cos": 0.95,
+    "feat_models": [
+      "vit_small_patch14_dinov2.lvd142m",
+      "convnext_tiny.fb_in1k"
+    ]
+  },
+  "models": {
+    "SwinT": "swin_tiny_patch4_window7_224.ms_in1k",
+    "ConvNeXtT": "convnext_tiny.fb_in1k",
+    "DeiT": "deit_tiny_patch16_224.fb_in1k",
+    "EfficientNetV2S": "tf_efficientnetv2_s.in1k",
+    "ResNet50": "resnet50.tv_in1k"
+  },
+  "model_order": [
+    "EfficientNetV2S",
+    "ConvNeXtT",
+    "SwinT",
+    "ResNet50",
+    "DeiT"
+  ],
+  "class_names": [
+    "Sana",
+    "BPR"
+  ],
+  "folds_to_run": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "procs_por_gpu": 6,
+  "paths": {
+    "project": "/workspace/cacao",
+    "csv": "/workspace/cacao/dataT/data.csv",
+    "out": "/workspace/cacao/resultados",
+    "cache": "/workspace/cacao/cache_256"
+  }
+}

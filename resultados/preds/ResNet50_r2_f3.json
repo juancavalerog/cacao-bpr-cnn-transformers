@@ -1,0 +1,19 @@
+{
+  "model": "ResNet50",
+  "arch": "resnet50.tv_in1k",
+  "particion": "r2_f3",
+  "seed": 2045,
+  "thr_val": 0.6273239254951477,
+  "thr_val_intervalo": [
+    0.5638078451156616,
+    0.6908400058746338
+  ],
+  "best_val_loss": 0.12597326248956536,
+  "epochs_phase1": 20,
+  "epochs_phase2": 23,
+  "train_seconds": 135.1182873249054,
+  "n_train": 1629,
+  "n_val": 206,
+  "n_test": 376,
+  "test_auc": 0.9942083297845157
+}

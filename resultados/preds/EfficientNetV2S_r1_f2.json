@@ -1,0 +1,19 @@
+{
+  "model": "EfficientNetV2S",
+  "arch": "tf_efficientnetv2_s.in1k",
+  "particion": "r1_f2",
+  "seed": 1044,
+  "thr_val": 0.11938588321208954,
+  "thr_val_intervalo": [
+    0.06323762238025665,
+    0.17553414404392242
+  ],
+  "best_val_loss": 0.12094809680149474,
+  "epochs_phase1": 20,
+  "epochs_phase2": 15,
+  "train_seconds": 192.76729202270508,
+  "n_train": 1641,
+  "n_val": 116,
+  "n_test": 454,
+  "test_auc": 0.9851532849586061
+}

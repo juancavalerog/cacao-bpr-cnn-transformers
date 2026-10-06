@@ -1,0 +1,14 @@
+{
+  "title": "Redes convolucionales y Transformers para clasificar la pudrición negra del cacao (Phytophthora spp.): código y datos derivados",
+  "upload_type": "software",
+  "description": "Código (notebooks de PyTorch y timm), particiones por secuencia de captura, predicciones fuera de pliegue, historiales de entrenamiento, tablas y figuras del artículo sobre la clasificación de mazorcas de cacao sanas y con pudrición negra con Swin-T, ConvNeXt-T, DeiT-Ti, EfficientNetV2-S y ResNet50. Incluye la auditoría de identidad de las imágenes y la evaluación en imágenes sanas no utilizadas. Las imágenes originales pertenecen al repositorio público Cacao Diseases (Pagaduan, 2021) y no se redistribuyen.",
+  "creators": [
+    {"name": "Valero Gómez, Juan Carlos", "affiliation": "Universidad Nacional de Moquegua", "orcid": "0000-0002-7077-7531"},
+    {"name": "Clares Perca, Juan Carlos", "affiliation": "Universidad Nacional de Moquegua", "orcid": "0000-0001-5146-2879"},
+    {"name": "Zúñiga Incalla, Alex Peter", "affiliation": "Universidad Nacional de Moquegua", "orcid": "0000-0003-4734-2262"}
+  ],
+  "keywords": ["cacao", "black pod rot", "Phytophthora", "deep learning", "vision transformer", "group cross-validation"],
+  "license": "MIT",
+  "language": "spa",
+  "version": "1.0.0"
+}

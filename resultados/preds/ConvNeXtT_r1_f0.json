@@ -1,0 +1,19 @@
+{
+  "model": "ConvNeXtT",
+  "arch": "convnext_tiny.fb_in1k",
+  "particion": "r1_f0",
+  "seed": 1042,
+  "thr_val": 0.4473724365234375,
+  "thr_val_intervalo": [
+    0.30196613073349,
+    0.592778742313385
+  ],
+  "best_val_loss": 0.025181603693734792,
+  "epochs_phase1": 20,
+  "epochs_phase2": 40,
+  "train_seconds": 277.75786685943604,
+  "n_train": 1418,
+  "n_val": 295,
+  "n_test": 498,
+  "test_auc": 0.9951328048950077
+}

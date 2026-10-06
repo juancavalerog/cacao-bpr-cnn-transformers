@@ -1,0 +1,19 @@
+{
+  "model": "DeiT",
+  "arch": "deit_tiny_patch16_224.fb_in1k",
+  "particion": "r1_f2",
+  "seed": 1044,
+  "thr_val": 0.16726259887218475,
+  "thr_val_intervalo": [
+    0.16687798500061035,
+    0.16764721274375916
+  ],
+  "best_val_loss": 0.146034417481258,
+  "epochs_phase1": 16,
+  "epochs_phase2": 15,
+  "train_seconds": 72.92011308670044,
+  "n_train": 1641,
+  "n_val": 116,
+  "n_test": 454,
+  "test_auc": 0.9813776964977484
+}

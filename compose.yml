@@ -1,0 +1,41 @@
+# Contenedor del estudio (PyTorch 2.14.0 + CUDA 12.6, timm 1.0.30)
+#
+# Uso (desde la raíz del repositorio):
+#   docker compose up -d --build    primera vez o si cambia el Dockerfile (construye la imagen, ~10 min)
+#   docker compose up -d            las demás veces
+#   docker compose logs -f          ver la URL de Jupyter y el estado
+#   docker compose down             detener (los resultados quedan en esta carpeta)
+#
+# Jupyter: http://localhost:8889/lab?token=<JUPYTER_TOKEN>
+# Defina JUPYTER_TOKEN (y opcionalmente JUPYTER_PORT) en un archivo .env antes de levantar el contenedor.
+
+services:
+  cacao:
+    build: .
+    image: cacao-bpr:cu126
+    container_name: cacao-bpr
+    restart: unless-stopped
+    ports:
+      - "${JUPYTER_PORT:-8889}:8888"
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:?defina JUPYTER_TOKEN en .env}
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility   # utility = nvidia-smi dentro del contenedor
+    volumes:
+      - ./:/workspace/cacao
+      - hf-cache:/root/.cache/huggingface             # pesos preentrenados de timm (se descargan una sola vez)
+      - torch-cache:/root/.cache/torch
+    shm_size: "16gb"                                  # evita el /dev/shm de 64 MB; permite num_workers = 6
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all                              # las dos A100
+              capabilities: [gpu]
+
+volumes:
+  hf-cache:
+  torch-cache:

@@ -1,0 +1,19 @@
+{
+  "model": "SwinT",
+  "arch": "swin_tiny_patch4_window7_224.ms_in1k",
+  "particion": "r0_f0",
+  "seed": 42,
+  "thr_val": 0.42667125165462494,
+  "thr_val_intervalo": [
+    0.41127216815948486,
+    0.442070335149765
+  ],
+  "best_val_loss": 0.16125259170045403,
+  "epochs_phase1": 20,
+  "epochs_phase2": 13,
+  "train_seconds": 191.18803524971008,
+  "n_train": 1826,
+  "n_val": 191,
+  "n_test": 194,
+  "test_auc": 0.99721269296741
+}

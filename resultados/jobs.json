@@ -1,0 +1,452 @@
+[
+ {
+  "model": "EfficientNetV2S",
+  "split": "r0_f0",
+  "tag": "EfficientNetV2S_r0_f0",
+  "seed": 42
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r0_f0",
+  "tag": "ConvNeXtT_r0_f0",
+  "seed": 42
+ },
+ {
+  "model": "SwinT",
+  "split": "r0_f0",
+  "tag": "SwinT_r0_f0",
+  "seed": 42
+ },
+ {
+  "model": "ResNet50",
+  "split": "r0_f0",
+  "tag": "ResNet50_r0_f0",
+  "seed": 42
+ },
+ {
+  "model": "DeiT",
+  "split": "r0_f0",
+  "tag": "DeiT_r0_f0",
+  "seed": 42
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r0_f1",
+  "tag": "EfficientNetV2S_r0_f1",
+  "seed": 43
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r0_f1",
+  "tag": "ConvNeXtT_r0_f1",
+  "seed": 43
+ },
+ {
+  "model": "SwinT",
+  "split": "r0_f1",
+  "tag": "SwinT_r0_f1",
+  "seed": 43
+ },
+ {
+  "model": "ResNet50",
+  "split": "r0_f1",
+  "tag": "ResNet50_r0_f1",
+  "seed": 43
+ },
+ {
+  "model": "DeiT",
+  "split": "r0_f1",
+  "tag": "DeiT_r0_f1",
+  "seed": 43
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r0_f2",
+  "tag": "EfficientNetV2S_r0_f2",
+  "seed": 44
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r0_f2",
+  "tag": "ConvNeXtT_r0_f2",
+  "seed": 44
+ },
+ {
+  "model": "SwinT",
+  "split": "r0_f2",
+  "tag": "SwinT_r0_f2",
+  "seed": 44
+ },
+ {
+  "model": "ResNet50",
+  "split": "r0_f2",
+  "tag": "ResNet50_r0_f2",
+  "seed": 44
+ },
+ {
+  "model": "DeiT",
+  "split": "r0_f2",
+  "tag": "DeiT_r0_f2",
+  "seed": 44
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r0_f3",
+  "tag": "EfficientNetV2S_r0_f3",
+  "seed": 45
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r0_f3",
+  "tag": "ConvNeXtT_r0_f3",
+  "seed": 45
+ },
+ {
+  "model": "SwinT",
+  "split": "r0_f3",
+  "tag": "SwinT_r0_f3",
+  "seed": 45
+ },
+ {
+  "model": "ResNet50",
+  "split": "r0_f3",
+  "tag": "ResNet50_r0_f3",
+  "seed": 45
+ },
+ {
+  "model": "DeiT",
+  "split": "r0_f3",
+  "tag": "DeiT_r0_f3",
+  "seed": 45
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r0_f4",
+  "tag": "EfficientNetV2S_r0_f4",
+  "seed": 46
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r0_f4",
+  "tag": "ConvNeXtT_r0_f4",
+  "seed": 46
+ },
+ {
+  "model": "SwinT",
+  "split": "r0_f4",
+  "tag": "SwinT_r0_f4",
+  "seed": 46
+ },
+ {
+  "model": "ResNet50",
+  "split": "r0_f4",
+  "tag": "ResNet50_r0_f4",
+  "seed": 46
+ },
+ {
+  "model": "DeiT",
+  "split": "r0_f4",
+  "tag": "DeiT_r0_f4",
+  "seed": 46
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r1_f0",
+  "tag": "EfficientNetV2S_r1_f0",
+  "seed": 1042
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r1_f0",
+  "tag": "ConvNeXtT_r1_f0",
+  "seed": 1042
+ },
+ {
+  "model": "SwinT",
+  "split": "r1_f0",
+  "tag": "SwinT_r1_f0",
+  "seed": 1042
+ },
+ {
+  "model": "ResNet50",
+  "split": "r1_f0",
+  "tag": "ResNet50_r1_f0",
+  "seed": 1042
+ },
+ {
+  "model": "DeiT",
+  "split": "r1_f0",
+  "tag": "DeiT_r1_f0",
+  "seed": 1042
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r1_f1",
+  "tag": "EfficientNetV2S_r1_f1",
+  "seed": 1043
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r1_f1",
+  "tag": "ConvNeXtT_r1_f1",
+  "seed": 1043
+ },
+ {
+  "model": "SwinT",
+  "split": "r1_f1",
+  "tag": "SwinT_r1_f1",
+  "seed": 1043
+ },
+ {
+  "model": "ResNet50",
+  "split": "r1_f1",
+  "tag": "ResNet50_r1_f1",
+  "seed": 1043
+ },
+ {
+  "model": "DeiT",
+  "split": "r1_f1",
+  "tag": "DeiT_r1_f1",
+  "seed": 1043
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r1_f2",
+  "tag": "EfficientNetV2S_r1_f2",
+  "seed": 1044
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r1_f2",
+  "tag": "ConvNeXtT_r1_f2",
+  "seed": 1044
+ },
+ {
+  "model": "SwinT",
+  "split": "r1_f2",
+  "tag": "SwinT_r1_f2",
+  "seed": 1044
+ },
+ {
+  "model": "ResNet50",
+  "split": "r1_f2",
+  "tag": "ResNet50_r1_f2",
+  "seed": 1044
+ },
+ {
+  "model": "DeiT",
+  "split": "r1_f2",
+  "tag": "DeiT_r1_f2",
+  "seed": 1044
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r1_f3",
+  "tag": "EfficientNetV2S_r1_f3",
+  "seed": 1045
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r1_f3",
+  "tag": "ConvNeXtT_r1_f3",
+  "seed": 1045
+ },
+ {
+  "model": "SwinT",
+  "split": "r1_f3",
+  "tag": "SwinT_r1_f3",
+  "seed": 1045
+ },
+ {
+  "model": "ResNet50",
+  "split": "r1_f3",
+  "tag": "ResNet50_r1_f3",
+  "seed": 1045
+ },
+ {
+  "model": "DeiT",
+  "split": "r1_f3",
+  "tag": "DeiT_r1_f3",
+  "seed": 1045
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r1_f4",
+  "tag": "EfficientNetV2S_r1_f4",
+  "seed": 1046
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r1_f4",
+  "tag": "ConvNeXtT_r1_f4",
+  "seed": 1046
+ },
+ {
+  "model": "SwinT",
+  "split": "r1_f4",
+  "tag": "SwinT_r1_f4",
+  "seed": 1046
+ },
+ {
+  "model": "ResNet50",
+  "split": "r1_f4",
+  "tag": "ResNet50_r1_f4",
+  "seed": 1046
+ },
+ {
+  "model": "DeiT",
+  "split": "r1_f4",
+  "tag": "DeiT_r1_f4",
+  "seed": 1046
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r2_f0",
+  "tag": "EfficientNetV2S_r2_f0",
+  "seed": 2042
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r2_f0",
+  "tag": "ConvNeXtT_r2_f0",
+  "seed": 2042
+ },
+ {
+  "model": "SwinT",
+  "split": "r2_f0",
+  "tag": "SwinT_r2_f0",
+  "seed": 2042
+ },
+ {
+  "model": "ResNet50",
+  "split": "r2_f0",
+  "tag": "ResNet50_r2_f0",
+  "seed": 2042
+ },
+ {
+  "model": "DeiT",
+  "split": "r2_f0",
+  "tag": "DeiT_r2_f0",
+  "seed": 2042
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r2_f1",
+  "tag": "EfficientNetV2S_r2_f1",
+  "seed": 2043
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r2_f1",
+  "tag": "ConvNeXtT_r2_f1",
+  "seed": 2043
+ },
+ {
+  "model": "SwinT",
+  "split": "r2_f1",
+  "tag": "SwinT_r2_f1",
+  "seed": 2043
+ },
+ {
+  "model": "ResNet50",
+  "split": "r2_f1",
+  "tag": "ResNet50_r2_f1",
+  "seed": 2043
+ },
+ {
+  "model": "DeiT",
+  "split": "r2_f1",
+  "tag": "DeiT_r2_f1",
+  "seed": 2043
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r2_f2",
+  "tag": "EfficientNetV2S_r2_f2",
+  "seed": 2044
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r2_f2",
+  "tag": "ConvNeXtT_r2_f2",
+  "seed": 2044
+ },
+ {
+  "model": "SwinT",
+  "split": "r2_f2",
+  "tag": "SwinT_r2_f2",
+  "seed": 2044
+ },
+ {
+  "model": "ResNet50",
+  "split": "r2_f2",
+  "tag": "ResNet50_r2_f2",
+  "seed": 2044
+ },
+ {
+  "model": "DeiT",
+  "split": "r2_f2",
+  "tag": "DeiT_r2_f2",
+  "seed": 2044
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r2_f3",
+  "tag": "EfficientNetV2S_r2_f3",
+  "seed": 2045
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r2_f3",
+  "tag": "ConvNeXtT_r2_f3",
+  "seed": 2045
+ },
+ {
+  "model": "SwinT",
+  "split": "r2_f3",
+  "tag": "SwinT_r2_f3",
+  "seed": 2045
+ },
+ {
+  "model": "ResNet50",
+  "split": "r2_f3",
+  "tag": "ResNet50_r2_f3",
+  "seed": 2045
+ },
+ {
+  "model": "DeiT",
+  "split": "r2_f3",
+  "tag": "DeiT_r2_f3",
+  "seed": 2045
+ },
+ {
+  "model": "EfficientNetV2S",
+  "split": "r2_f4",
+  "tag": "EfficientNetV2S_r2_f4",
+  "seed": 2046
+ },
+ {
+  "model": "ConvNeXtT",
+  "split": "r2_f4",
+  "tag": "ConvNeXtT_r2_f4",
+  "seed": 2046
+ },
+ {
+  "model": "SwinT",
+  "split": "r2_f4",
+  "tag": "SwinT_r2_f4",
+  "seed": 2046
+ },
+ {
+  "model": "ResNet50",
+  "split": "r2_f4",
+  "tag": "ResNet50_r2_f4",
+  "seed": 2046
+ },
+ {
+  "model": "DeiT",
+  "split": "r2_f4",
+  "tag": "DeiT_r2_f4",
+  "seed": 2046
+ }
+]

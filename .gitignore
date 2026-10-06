@@ -1,0 +1,15 @@
+# Imágenes (se obtienen del repositorio de Kaggle; ver README)
+dataT/healthy/
+dataT/pod_rot_black/
+dataset_complete/
+cache_256/
+# Puntos de control y salidas temporales
+resultados/ckpt/
+resultados/logs/
+prueba/
+*.claim
+*.done
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+.env

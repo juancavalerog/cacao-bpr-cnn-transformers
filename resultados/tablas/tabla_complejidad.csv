@@ -1,0 +1,6 @@
+Modelo,Arquitectura (timm),Parámetros (M),Tamaño FP32 (MB),GFLOPs (224×224),Latencia GPU FP32 (ms/img),Latencia GPU BF16 (ms/img),"Rendimiento GPU BF16 (img/s, lote 64)","Memoria GPU pico (MB, lote 1)",Latencia CPU 4 hilos (ms/img)
+SwinT,swin_tiny_patch4_window7_224.ms_in1k,27.52,105.0,8.98,3.67 ± 0.18,4.14 ± 0.19,2834 ± 8,133,41.8 ± 12.6
+ConvNeXtT,convnext_tiny.fb_in1k,27.82,106.1,8.91,2.18 ± 0.00,2.08 ± 0.07,3970 ± 6,131,25.9 ± 4.7
+DeiT,deit_tiny_patch16_224.fb_in1k,5.52,21.1,2.51,1.70 ± 0.00,1.84 ± 0.01,15074 ± 1,32,8.1 ± 0.7
+EfficientNetV2S,tf_efficientnetv2_s.in1k,20.18,77.0,5.7,6.49 ± 0.02,6.37 ± 0.01,2970 ± 13,102,34.5 ± 2.2
+ResNet50,resnet50.tv_in1k,23.51,89.7,8.17,3.51 ± 0.00,2.30 ± 0.02,4753 ± 7,126,23.5 ± 2.4

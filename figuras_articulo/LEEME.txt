@@ -1,0 +1,33 @@
+FIGURAS DEL ARTÍCULO (Revista Nativa)
+
+Ancho de inserción usado en el manuscrito entre paréntesis.
+
+Figura_1_clases_y_estratos.png  (Figura 1, 15.5 cm de ancho)
+  ES: Ejemplos de mazorcas de cacao sanas y con pudrición negra (BPR) causada por Phytophthora spp. (A) y número de imágenes por clase y por estrato de resolución (B). El estrato A corresponde a imágenes de 1080 × 1080 píxeles y el estrato B a imágenes de 2160 × 2160 píxeles.
+  EN: Examples of healthy cacao pods and pods with black pod rot (BPR) caused by Phytophthora spp. (A), and number of images per class and resolution stratum (B). Stratum A corresponds to 1080 × 1080 pixel images and stratum B to 2160 × 2160 pixel images.
+
+Figura_2_flujo_metodologico.png  (Figura 2, 15.5 cm de ancho)
+  ES: Flujo metodológico del estudio: auditoría del conjunto de datos y agrupación por secuencia de captura, particiones con validación cruzada repetida por grupos, entrenamiento en dos fases con cabecera común y evaluación estadística, de calibración, de interpretabilidad y de costo computacional.
+  EN: Methodological workflow: dataset audit and capture-sequence grouping, repeated group cross-validation splits, two-stage training with a common head, and statistical, calibration, interpretability and computational cost evaluation.
+
+Figura_3_curvas_entrenamiento.png  (Figura 3, 15.5 cm de ancho)
+  ES: Curvas de pérdida (izquierda) y AUC de validación (derecha) de los cinco pliegues de la repetición 1. Líneas continuas: validación; líneas discontinuas: entrenamiento. La línea vertical punteada marca el inicio de la fase 2 (red completa).
+  EN: Loss (left) and validation AUC (right) curves for the five folds of repetition 1. Solid lines: validation; dashed lines: training. The dotted vertical line marks the start of stage 2 (full network).
+
+Figura_4_matrices_confusion.png  (Figura 4, 13.5 cm de ancho)
+  ES: Matrices de confusión fuera de pliegue (repetición 1, umbral 0.5). Cada matriz suma las 2211 imágenes, porque cada imagen se evalúa una vez en el pliegue en que fue de prueba. El último panel resume los falsos negativos y falsos positivos de cada modelo.
+  EN: Out-of-fold confusion matrices (repetition 1, threshold 0.5). Each matrix sums the 2,211 images, because each image is evaluated once in the fold in which it was held out. The last panel summarizes false negatives and false positives for each model.
+
+Figura_5_roc_calibracion.png  (Figura 5, 12.5 cm de ancho)
+  ES: Curvas ROC fuera de pliegue con AUC e IC95 % de DeLong (A; el recuadro amplía la región de baja tasa de falsos positivos) y diagrama de fiabilidad con 10 intervalos de igual anchura y el puntaje de Brier de cada modelo (B), repetición 1. El panel inferior de B indica el número de imágenes por intervalo (escala logarítmica).
+  EN: Out-of-fold ROC curves with AUC and DeLong 95% CI (A; the inset enlarges the low false positive rate region) and reliability diagram with 10 equal-width bins and each model's Brier score (B), repetition 1. The lower panel of B shows the number of images per bin (logarithmic scale).
+
+Figura_6_gradcam_ejemplos.png  (Figura 6, 15.5 cm de ancho)
+  ES: Mapas Grad-CAM de los cinco modelos (repetición 1, pliegue 1) para tres mazorcas sanas y tres con BPR elegidas al azar del conjunto de prueba. Cada mapa resalta la evidencia a favor de la clase predicha (para la clase sana se usa el logit con signo negativo). Bajo cada mapa se indica la clase predicha y la probabilidad de BPR. Análisis cualitativo de casos.
+  EN: Grad-CAM maps of the five models (repetition 1, fold 1) for three healthy and three BPR pods randomly drawn from the test set. Each map highlights the evidence for the predicted class (the negative logit is used for the healthy class). The predicted class and BPR probability are shown below each map. Qualitative case analysis.
+
+Figura_7_gradcam_errores_swin.png  (Figura 7, 15.5 cm de ancho)
+  ES: Mapas Grad-CAM de las imágenes mal clasificadas por Swin-T (repetición 1, pliegue 1: dos falsos positivos y dos falsos negativos) y respuesta de los demás modelos a las mismas imágenes. Las predicciones erróneas se indican en rojo.
+  EN: Grad-CAM maps of the images misclassified by Swin-T (repetition 1, fold 1: two false positives and two false negatives) and the response of the other models to the same images. Incorrect predictions are shown in red.
+
+Scripts: scripts/figuras.py (Figuras 1, 3, 4 y 5), scripts/figura_flujo.py (Figura 2), scripts/gradcam_figuras.py (Figuras 6 y 7).

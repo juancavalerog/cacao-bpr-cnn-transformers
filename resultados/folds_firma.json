@@ -1,0 +1,17 @@
+{
+  "n": 2211,
+  "dedup": {
+    "hamming": 6,
+    "cos": 0.95,
+    "feat_models": [
+      "vit_small_patch14_dinov2.lvd142m",
+      "convnext_tiny.fb_in1k"
+    ]
+  },
+  "n_repeats": 3,
+  "n_folds": 5,
+  "seed": 42,
+  "grupos": 664,
+  "agrupacion": "secuencia_captura",
+  "source_shift": true
+}

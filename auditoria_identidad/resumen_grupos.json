@@ -1,0 +1,14 @@
+{
+  "regla": "pHash<=6 o coseno>=0.95 | numeros a distancia <=3 y coseno>=0.75 | >=40 correspondencias SIFT+RANSAC | coseno>=0.93 | pares confirmados en la revision visual",
+  "franja_dudosa_pares": 650,
+  "revisados": 396,
+  "revisados_misma_o_nose": 68,
+  "revisados_distinta": 328,
+  "no_revisados_tratados_como_distinta": 254,
+  "proporcion_misma_en_revisados": 0.172,
+  "misma_esperadas_en_no_revisados": 43.6,
+  "grupos_solo_phash_dino": 2205,
+  "grupos": 664,
+  "grupo_mayor": 351,
+  "imagenes_en_grupos_multiples": 1750
+}

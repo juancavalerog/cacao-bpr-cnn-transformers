@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si usa este software, cítelo como se indica a continuación."
+title: "Redes convolucionales y Transformers para clasificar la pudrición negra del cacao (Phytophthora spp.): código y datos derivados"
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+type: software
+authors:
+  - family-names: "Valero Gómez"
+    given-names: "Juan Carlos"
+    orcid: "https://orcid.org/0000-0002-7077-7531"
+    affiliation: "Universidad Nacional de Moquegua"
+  - family-names: "Clares Perca"
+    given-names: "Juan Carlos"
+    orcid: "https://orcid.org/0000-0001-5146-2879"
+    affiliation: "Universidad Nacional de Moquegua"
+  - family-names: "Zúñiga Incalla"
+    given-names: "Alex Peter"
+    orcid: "https://orcid.org/0000-0003-4734-2262"
+    affiliation: "Universidad Nacional de Moquegua"
+keywords:
+  - cacao
+  - black pod rot
+  - Phytophthora
+  - deep learning
+  - vision transformer
+  - group cross-validation
